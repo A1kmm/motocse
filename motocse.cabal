@@ -1,0 +1,21 @@
+Name:                motocse
+Version:             0.0
+Description:         Motif Tool Comparison Suite for comparing different tools for finding transcription factor binding sites (TFBS).
+License:             OtherLicense
+License-file:        COPYING
+Author:              Andrew Miller
+Maintainer:          ak.miller@auckland.ac.nz
+Build-Type:          Simple
+Cabal-Version:       >=1.2
+
+Executable motocse
+  Main-is:           motocse.hs
+  Build-Depends:     base >= 3 && < 5,
+                     parsec >= 2 && < 3,
+                     containers,
+                     bytestring,
+                     directory
+
+Executable which_different
+  Main-is:           which_different.hs
+  Build-Depends:     base >= 3 && < 5

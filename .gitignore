@@ -2,3 +2,6 @@
 *.hi
 *.o
 motocse
+dist
+which_different
+*.fasta
